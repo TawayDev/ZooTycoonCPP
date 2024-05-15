@@ -1,0 +1,3 @@
+- No fun has been experienced during the whole coding process.
+- Project structure was designed to be distinct from other classmates and not to be professional or usable.
+- The whole project is structured very poorly and i do not care. I just want to finish this.
