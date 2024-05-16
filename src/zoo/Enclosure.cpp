@@ -1,6 +1,7 @@
+#include <iostream>
 #include "Enclosure.h"
 // Bob the builder
-Enclosure::Enclosure(int capacity) : maxCapacity(capacity), capacity(0) {}
+Enclosure::Enclosure() = default;
 
 bool Enclosure::canAddAnimal(Animal &animal) {
     if (capacity < maxCapacity) {

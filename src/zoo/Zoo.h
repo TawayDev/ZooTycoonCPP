@@ -45,7 +45,7 @@ public:
 
     int getTotalAnimals();
 
-    int getTotalProfit();
+    double getTotalProfit();
 };
 
 #endif

@@ -10,11 +10,11 @@ private:
      * We assume that we live in a perfect utopia where every animal type can co-exist in the same enclosure. No animals will be harmed because fairytale rules apply.
      */
     std::vector<Animal*> animals;
-    int maxCapacity;
-    int capacity;
-
+    int maxCapacity = 10;
+    int capacity = 0;
 public:
-    explicit Enclosure(int maxCapacity);
+    double price = 1000;
+    explicit Enclosure();
 
     /**
     * Adds the animal reference to the animal vector and returns true. If the enclosure is at capacity no animal has been added, false returned.
